@@ -1,0 +1,48 @@
+<div class='team-img-cont'>
+	<img class='team-img' src="<%= asset_path('DylanWatkins.jpg') %>" />
+	<p class='team-info name'>DYLAN WATKINS</p>
+	<p class='team-info'>Organizer</p>
+</div>
+<div class='team-img-cont'>
+	<img class='team-img' src="<%= asset_path('ChristopherCain.jpg') %>" />
+	<p class='team-info name'>CHRISTOPHER CAIN</p>
+	<p class='team-info'>Volunteer Coordinator</p>
+</div>
+<div class='team-img-cont'>
+	<img class='team-img' src="<%= asset_path('MatthewTerndrup.jpg') %>" />
+	<p class='team-info name'>MATTHEW TERNDRUP</p>
+	<p class='team-info'>Panels & Teams Coordinator</p>
+</div>
+<!-- <div class='team-img-cont'>
+	<img class='team-img' src="<%= asset_path('AziaCelestino.jpg') %>" />
+	<p class='team-info name'>AZIA CELESTINO</p>
+	<p class='team-info'>AV - Coordinator</p>
+</div> -->
+<!-- <div class='team-img-cont'>
+	<img class='team-img' src="<%= asset_path('AaronLane.jpg') %>" />
+	<p class='team-info name'>AARON LANE</p>
+	<p class='team-info'>Business Development</p>
+</div> -->
+<div class='team-img-cont'>
+	<img class='team-img' src="<%= asset_path('MattKinney.jpg') %>" />
+	<p class='team-info name'>MATT KINNEY</p>
+	<p class='team-info'>Developer Relations</p>
+</div>
+<!-- <div class='team-img-cont half margin-sml'>
+	<img class='team-img' src="<%= asset_path('BrianLevine.jpg') %>" />
+	<p class='team-info name'>BRIAN LEVINE</p>
+	<p class='team-info'>Conference App Developer</p>
+</div> -->
+<!-- <div class='team-img-cont half'>
+	<img class='team-img' src="<%= asset_path('SamWalston.jpg') %>" />
+	<p class='team-info name'>SAM WALSTON</p>
+	<p class='team-info'>Web Developer</p>
+</div> -->
+
+<% @workers.each do |worker| %>
+	<div class="team-img-cont <%= worker.custom_class %>">
+		<img class='team-img' src="<%= asset_path("#{worker.img}") %>" />
+		<p class='team-info name'><%= worker.name %></p>
+		<p class='team-info'><%= worker.bio %></p>
+	</div>
+<% end %>
