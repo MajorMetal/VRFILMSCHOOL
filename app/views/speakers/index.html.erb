@@ -1,15 +1,32 @@
-<main class='main'>
-	<div class='container clearfix'>
-		<h3 class='section-title'>360 COMPANIES</h3>
-		<!-- <div class='column max-width-sml clearfix'>
-			<%= render 'partials/speakers' %>
-		</div> -->
-		<p class='judgeText'> Are you a 360 video company looking for fresh talent. Get involved with VR Film School. Click on the button below and fill out the form and get ready for VR movie magic!</p>
+<header class='carousel' id='header' data-scroll-speed='3'>
+	<div class='carousel carousel-cont' id='slider-cont'>
+  	<div u='slides' class='carousel carousel-slide'>
+    	<div>
+	      <img u='image' src="<%= asset_path('CopperDoor2.jpg') %>" />
+	    </div>
+	    <div>
+	      <img u='image' src="<%= asset_path('CopperDoor1.JPG') %>" />
+	    </div>
+	    <div>
+	      <img u='image' src="<%= asset_path('CopperDoor5.jpg') %>" />
+	    </div>
+	  </div>
 	</div>
-	<div class='container clearfix' id='exhibitor-signup'>
+</header>
+
+<main class='main home'>
+	<div class='container full clearfix' id='expo-info-home'>
 		<div class='column'>
-			<a class='button' href='http://bit.ly/1K7lLkF' target='_blank'>WANT TO SIGN UP?</a>
+		<h3 class='section-title'>Monster Mondays: VR and Cocktails</h3>
+		<div class='section-title'>
+			<h6 class='section-subtitle'>At 8:00 pm , November 16th, 2015</h6>
+			<!-- <h6 class='section-subtitle'>1pm - 7pm</h6> -->
+			<h6 class='section-subtitle'>The Copper Door</h6>
+			<h6 class='section-subtitle'>225 N Broadway, Santa Ana, CA 92701</h6>
+			<h6 class='section-subtitle'>$10.00 at the door</h6>
 		</div>
+		<p class='section-text'> Imagine a secret spot where you could connect and experience VR first hand in a fun but relaxed environment. Well, come join us at the Monster Monthly Mixer Meet up @ the Copper Door in Santa Ana. We will be drinking and demoing Virtual Reality experiences…why…  because that sounds awesome… that's why. For the first 50 people with a Gear VR will get in for FREE. Our goal is to create an repeatable night of VR fun that results in lasting friendships and business connections. If you have any thoughts or questions please email me here  Dylan@MonsterVR.com.  </p>
 	</div>
-	<%= render 'partials/map' %>
+		
+	
 </main>
