@@ -2,14 +2,17 @@ Rails.application.routes.draw do
 
   root 'homes#home'
 
-  get '/expo' => 'homes#expo'
+  get '/agenda', to: 'homes#expo', as: :expo
   get '/maps' => 'homes#maps'
   get '/livestream' => 'homes#stream'
 
-  resources :speakers, only: [:index]
-  resources :exhibitors, only: [:index]
+  get '/judges', to: 'exhibitors#index', as: :exhibitors
+  get '/events', to: 'speakers#index', as: :speakers
+  # resources :speakers, only: [:index]
+  # resources :exhibitors, only: [:index]
   resources :sponsors, only: [:index]
-  resources :workers, only: [:index]
+  # resources :workers, only: [:index]
+  get '/team', to: 'workers#index', as: :workers
 
   get '/sponsors/buy' => 'sponsors#buy'
 
