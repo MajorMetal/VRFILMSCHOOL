@@ -1,0 +1,25 @@
+<script>
+	var map,
+		marker,
+		myLatlng,
+		mapOptions;
+
+	function initialize() {
+		myLatlng = new google.maps.LatLng(33.6405,-117.8541);
+    	mapOptions = {
+	      center: {lat: 33.6405, lng: -117.8541},
+	      zoom: 14,
+	      scrollwheel: false,
+	      draggable: true
+	    };
+
+    	map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+	  	marker = new google.maps.Marker({
+	      position: myLatlng,
+	      map: map
+	  	});
+	};
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
