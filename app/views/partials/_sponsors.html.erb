@@ -2,72 +2,72 @@
 	<h3 class='section-title'>SPONSORS</h3>
 	<div class='column max-width-sml'>
 
-		<div class='sponsor-cont clearfix'>
-			<h5 class='section-title'>DIAMOND</h5>
-			<% @diamond.each do |sponsor| %>
-				<a href="<%= sponsor.site %>" target='_blank'>
-					<div class="sponsor-img-cont <%= sponsor.custom_class %>">
-						<img class='sponsor-img' src="<%= asset_path("#{sponsor.img}") %>" />
+		<!-- <div class='sponsor-cont clearfix'>
+			 <h5 class='section-title'>DIAMOND</h5> 
+			<%# @diamond.each do |sponsor| %>
+				<a href="<%#= sponsor.site %>" target='_blank'>
+					<div class="sponsor-img-cont <%#= sponsor.custom_class %>">
+						<img class='sponsor-img' src="<%#= asset_path("#{sponsor.img}") %>" />
 					</div>
 				</a>
-			<% end %>
-		</div>
+			<%# end %>
+		</div> -->
 
-		<div class='sponsor-cont clearfix'>
+	<!-- 	<div class='sponsor-cont clearfix'>
 			<h5 class='section-title'>RUBY</h5>
-			<% @ruby.each do |sponsor| %>
-				<a href="<%= sponsor.site %>" target='_blank'>
-					<div class="sponsor-img-cont <%= sponsor.custom_class %>">
-						<img class='sponsor-img' src="<%= asset_path("#{sponsor.img}") %>" />
+			<%# @ruby.each do |sponsor| %>
+				<a href="<%#= sponsor.site %>" target='_blank'>
+					<%#=div class="sponsor-img-cont <%= sponsor.custom_class %>">
+						<img class='sponsor-img' src="<%#= asset_path("#{sponsor.img}") %>" />
 					</div>
 				</a>
-			<% end %>
-		</div>
+			<%# end %>
+		</div> -->
 
-		<div class='sponsor-cont clearfix'>
+		<!-- <div class='sponsor-cont clearfix'>
 			<h5 class='section-title'>EMERALD</h5>
-			<% @emerald.each do |sponsor| %>
-				<a href="<%= sponsor.site %>" target='_blank'>
-					<div class="sponsor-img-cont <%= sponsor.custom_class %>">
-						<img class='sponsor-img' src="<%= asset_path("#{sponsor.img}") %>" />
+			<%#= @emerald.each do |sponsor| %>
+				<a href="<%#= sponsor.site %>" target='_blank'>
+					<div class="sponsor-img-cont <%#= sponsor.custom_class %>">
+						<img class='sponsor-img' src="<%#= asset_path("#{sponsor.img}") %>" />
 					</div>
 				</a>
-			<% end %>
-		</div>
+			<%# end %>
+		</div> -->
 
 		<div class='sponsor-cont clearfix'>
-			<h5 class='section-title'>COMMUNITY</h5>
+			<h5 class='section-title'>COMMUNITY</h5> 
 			<% @community.each do |sponsor| %>
 				<a href="<%= sponsor.site %>" target='_blank'>
 					<div class="sponsor-img-cont <%= sponsor.custom_class %>">
 						<img class='sponsor-img' src="<%= asset_path("#{sponsor.img}") %>" />
 					</div>
 				</a>
-			<% end %>
-		</div>
+			<%end%>
+		</div> 
 
-		<div class='sponsor-cont clearfix'>
+		<!-- <div class='sponsor-cont clearfix'>
 			<h5 class='section-title'>MEDIA</h5>
-			<% @media.each do |sponsor| %>
-				<a href="<%= sponsor.site %>" target='_blank'>
-					<div class="sponsor-img-cont <%= sponsor.custom_class %>">
-						<img class="sponsor-img<% if sponsor.name == 'Duncan Trussell' %> <%= sponsor.custom_class %><% end %>"
-							src="<%= asset_path("#{sponsor.img}") %>" />
+			<%# @media.each do |sponsor| %>
+				<a href="<%#= sponsor.site %>" target='_blank'>
+					<div class="sponsor-img-cont <%#= sponsor.custom_class %>">
+						<%#=img class="sponsor-img<%# if sponsor.name == 'Duncan Trussell' %> <%#= sponsor.custom_class %><%# end %>"
+							src="<%#= asset_path("#{sponsor.img}") %>" />
 					</div>
 				</a>
-			<% end %>
-		</div>
+			<%# end %>
+		</div> -->
 
-		<div class='sponsor-cont clearfix'>
+		<!-- <div class='sponsor-cont clearfix'>
 			<h5 class='section-title'>360° BROADCASTING AND RECORDING</h5>
-			<% @broadcaster.each do |sponsor| %>
-				<a href="<%= sponsor.site %>" target='_blank'>
-					<div class="sponsor-img-cont <%= sponsor.custom_class %>">
-						<img class='sponsor-img' src="<%= asset_path("#{sponsor.img}") %>" />
+			<%# @broadcaster.each do |sponsor| %>
+				<a href="<%#= sponsor.site %>" target='_blank'>
+					<div class="sponsor-img-cont <%#= sponsor.custom_class %>">
+						<img class='sponsor-img' src="<%#= asset_path("#{sponsor.img}") %>" />
 					</div>
 				</a>
-			<% end %>
+			<%# end %>
 		</div>
-
+ -->
 	</div>
 </div>
