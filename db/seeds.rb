@@ -160,7 +160,7 @@ Worker.create([
 	{ name: 'Christopher Cain', img: 'ChristopherCain.jpg', bio: 'Instructor' },
 	{ name: 'Matthew Terndrup', img: 'MatthewTerndrup.jpg', bio: 'Media' },
 	# { name: 'Azia Celestino', img: 'AziaCelestino.jpg', bio: 'AV - Coordinator' },
-	# { name: 'Aaron Lane', img: 'AaronLane.jpg', bio: 'Business Development' },
+	{ name: 'Aaron Lane', img: 'AaronLane.jpg', bio: 'Business Development' },
 	{ name: 'Matt Kinney', img: 'MattKinney.jpg', bio: 'Website' },
 	# { name: 'Brian Levine', img: 'BrianLevine.jpg', bio: 'Conference App Developer', custom_class: 'margin-sml' },
 	# { name: 'Sam Walston', img: 'SamWalston.jpg', bio: 'Web Developer' }
