@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get '/maps' => 'homes#maps'
   get '/livestream' => 'homes#stream'
 
-  get '/judges', to: 'exhibitors#index', as: :exhibitors
+  get '/instructors', to: 'exhibitors#index', as: :exhibitors
   get '/events', to: 'speakers#index', as: :speakers
   # resources :speakers, only: [:index]
   # resources :exhibitors, only: [:index]

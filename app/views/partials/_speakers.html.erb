@@ -1,6 +1,6 @@
 <% @speakers.each do |speaker| %>
 	<div class="speaker-img-cont <%= speaker.custom_class %>">
-		<img class='speaker-img' src="<%= asset_path("#{speaker.img}") %>" />
+		<img class='speaker-img' src="<%= asset_path("{speaker.img}") %>" />
 		<p class='speaker-info name'><%= speaker.name %></p>
 		<p class='speaker-info'><%= speaker.bio %></p>
 	</div>

@@ -6,8 +6,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Exhibitor.create([
-	# { name: '', img: '', site: '' }
-	# { name: 'Warped Imagination', img: 'WarpedImagination.png', site: 'http://warpedimagination.com', is_featured: true },
+	#{ name: '', img: '', site: '' }
+	# { name: 'Noah Edward', img: 'NoahLaReels.png', site:'http://www.lareels.com', is_featured: true },
 	# { name: 'VR Live', img: 'VRLive.png', site: 'http://www.vrlive.com/', is_featured: true },
 	# { name: 'Vrideo', img: 'VRideo.png', site: 'http://www.vrideo.com', is_featured: true },
 	# { name: 'Oval Integration', img: 'Oval.png', site: 'http://www.ovalintegration.com/', is_featured: true },
@@ -66,8 +66,8 @@ Exhibitor.create([
 
 Speaker.create([
 	# { name: '', img: '', bio: '' }
-	# { name: 'Duncan Trussell', img: 'DuncanTrussel.jpg', bio: 'Host of the Duncan Trussell Family Hour Podcast, Comdeian, VR Evangelist', is_featured: true },
-	# { name: 'Dave Taylor', img: 'DaveTaylor.jpg', bio: 'Game Producer, Developer on Doom and Quake', is_featured: true },
+	 { name: 'Noah Edward', img: 'NoahLaReels.png', bio: 'Director, Producer at LA Reels' },
+	 { name: 'Patrick Eleazar', img: 'PatrickElezar.jpg', bio: 'Founder at Realidyne' },
 	# { name: 'Jonnie Ross', img: 'JonnieRoss.jpg', bio: 'Co-Founder at VRLA', is_featured: true },
 	# { name: 'Jim Willson', img: 'JimWillson.jpg', bio: 'Director, Immersive Products & VR at Samsung', is_featured: true },
 	# { name: 'Matthew Gratzner', img: 'MatthewGratzner.jpg', bio: 'Director, Designer, VR, VFX & Co-Founder at NewDealStudios', is_featured: true },
@@ -108,7 +108,8 @@ Sponsor.create([
 	# { name: 'Next VR', rank: 'Diamond', img: 'NextVR.png', site: 'http://www.nextvr.com/', custom_class: 'lrg' },
 	# { name: 'San Diego Zoo', rank: 'Diamond', img: 'TechtoReconnect.png', site: 'http://www.techtoreconnect.org', custom_class: 'lrg' },
 	 { name: 'Fast Start Studios', rank: 'Community', img: 'FastStart.png', site: 'http://www.faststartstudio.com/', custom_class: 'lrg' },
-	# { name: 'Altspace VR', rank: 'Ruby', img: 'AltspaceVR-new.png', site: 'http://altvr.com/', custom_class: 'lrg' },
+	 { name: 'UploadVR', rank: 'Community', img: 'Upload.png', site: 'http://uploadvr.com/' },
+	#{ name: 'Altspace VR', rank: 'Ruby', img: 'AltspaceVR-new.png', site: 'http://altvr.com/', custom_class: 'lrg' },
 	# { name: 'Real Office Centers', rank: 'Ruby', img: 'ROC.jpg', site: 'http://www.realofficecenters.com/' },
 	# { name: 'UCI', rank: 'Ruby', img: 'UCICove.png', site: 'http://innovation.uci.edu/' },
 	# { name: 'Unity', rank: 'Ruby', img: 'Unity.png', site: 'http://unity3d.com/' },
@@ -126,8 +127,8 @@ Sponsor.create([
 	# { name: 'SVVR', rank: 'Community', img: 'SVVR.png', site: 'http://svvr.com/', custom_class: 'med' },
 	 { name: 'VRLB', rank: 'Community', img: 'VRLB.png', site: 'http://www.meetup.com/Long-Beach-Virtual-Reality-Meetup/', custom_class: 'med' },
 	 { name: 'SDVR', rank: 'Community', img: 'SDVR.png', site: 'http://www.meetup.com/San-Diego-Virtual-Reality/', custom_class: 'med' },
-	# { name: 'VR Fest', rank: 'Community', img: 'VRFest.png', site: 'http://3dff.org/', custom_class: 'margin-sml sml' },
-	# { name: 'SFVR', rank: 'Community', img: 'SFVR.png', site: 'http://www.meetup.com/virtualreality/', custom_class: 'sml' },
+	 { name: 'LA Reels', rank: 'Community', img: 'lareelslogo.png', site: 'http://www.lareels.com', custom_class: 'med' },
+	 { name: 'Realidyne', rank: 'Community', img: 'realidyne.png', site: 'http://www.realidyne.com', custom_class: 'med' },
 	# { name: 'OC Hackerz', rank: 'Community', img: 'OCHackerz.jpg', site: 'http://www.meetup.com/OCHackerz/', custom_class: 'sml' },
 	# { name: 'Survios', rank: 'Community', img: 'Survios.png', site: 'http://survios.com/', custom_class: 'nrml' },
 	# { name: 'KHS', rank: 'Community', img: 'KHS.png', site: 'http://www.khslaw.com/', custom_class: 'nrml' },
@@ -137,7 +138,7 @@ Sponsor.create([
 	# { name: 'Web 3D', rank: 'Community', img: 'Web3D.jpg', site: 'http://www.web3d.org/' },
 	# { name: 'Duncan Trussell', rank: 'Media', img: 'DuncanTrussellFH.png', site: 'http://duncantrussell.com/', custom_class: 'duncan' },
 	# { name: 'VR Scout', rank: 'Media', img: 'VRScout.png', site: 'http://vrscout.com/' },
-	 { name: 'UploadVR', rank: 'Community', img: 'Upload.png', site: 'http://uploadvr.com/' },
+	 #{ name: 'UploadVR', rank: 'Community', img: 'Upload.png', site: 'http://uploadvr.com/' },
 	# { name: 'VRfocus', rank: 'Media', img: 'VRFocus.png', site: 'http://vrfocus.com/' },
 	# { name: 'VR Digest', rank: 'Media', img: 'VRDigest.png', site: 'http://vrdigest.com/', custom_class: 'tiny' },
 	# { name: 'Voices of VR', rank: 'Media', img: 'VoicesOfVR.jpg', site: 'http://voicesofvr.com/', custom_class: 'tiny' },
@@ -155,7 +156,7 @@ Sponsor.create([
 ])
 
 Worker.create([
-	# { name: '', img: '', bio: '' }
+   # { name: '', img: '', bio: '' }
 	{ name: 'Dylan Watkins', img: 'DylanWatkins.jpg', bio: 'Organizer' },
 	{ name: 'Christopher Cain', img: 'ChristopherCain.jpg', bio: 'Instructor' },
 	{ name: 'Matthew Terndrup', img: 'MatthewTerndrup.jpg', bio: 'Media' },
