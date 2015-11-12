@@ -67,7 +67,10 @@ Exhibitor.create([
 Speaker.create([
 	# { name: '', img: '', bio: '' }
 	 { name: 'Noah Edward', img: 'NoahLaReels.png', bio: 'Director, Producer at LA Reels' },
+	 { name: 'Brett Newton', img: 'Brett.png', bio: 'Director, Actor, Producer at LA Reels' },
 	 { name: 'Patrick Eleazar', img: 'PatrickElezar.jpg', bio: 'Founder at Realidyne' },
+	 { name: 'Christopher Cain', img: 'ChristopherCain.jpg', bio: 'Instructor at Cal State Long Beach' },
+	 { name: 'Matt Kinney', img: 'MattKinney.jpg', bio: 'Co-Founder/Developer at Monster VR' },
 	# { name: 'Jonnie Ross', img: 'JonnieRoss.jpg', bio: 'Co-Founder at VRLA', is_featured: true },
 	# { name: 'Jim Willson', img: 'JimWillson.jpg', bio: 'Director, Immersive Products & VR at Samsung', is_featured: true },
 	# { name: 'Matthew Gratzner', img: 'MatthewGratzner.jpg', bio: 'Director, Designer, VR, VFX & Co-Founder at NewDealStudios', is_featured: true },
@@ -109,6 +112,14 @@ Sponsor.create([
 	# { name: 'San Diego Zoo', rank: 'Diamond', img: 'TechtoReconnect.png', site: 'http://www.techtoreconnect.org', custom_class: 'lrg' },
 	 { name: 'Fast Start Studios', rank: 'Community', img: 'FastStart.png', site: 'http://www.faststartstudio.com/', custom_class: 'lrg' },
 	 { name: 'UploadVR', rank: 'Community', img: 'Upload.png', site: 'http://uploadvr.com/' },
+	 { name: 'Vrideo', rank: 'Community', img: 'VRideo.png', site: 'http://www.vrideo.com', custom_class: 'lrg' },
+	 { name: 'LA Reels', rank: 'Community', img: 'lareelslogo.png', site: 'http://www.lareels.com', custom_class: 'med' },
+     { name: 'Realidyne', rank: 'Community', img: 'realidyne.png', site: 'http://www.realidyne.com', custom_class: 'med' },
+	 { name: 'OCVR', rank: 'Community', img: 'OCVR.png', site: 'http://orangecountyvr.com/' },
+	 { name: 'VRLA', rank: 'Community', img: 'VRLA.png', site: 'http://www.virtualrealityla.com/', custom_class: 'med' },
+	 { name: 'SVVR', rank: 'Community', img: 'SVVR.png', site: 'http://svvr.com/', custom_class: 'med' },
+	 { name: 'VRLB', rank: 'Community', img: 'VRLB.png', site: 'http://www.meetup.com/Long-Beach-Virtual-Reality-Meetup/', custom_class: 'med' },
+	 { name: 'SDVR', rank: 'Community', img: 'SDVR.png', site: 'http://www.meetup.com/San-Diego-Virtual-Reality/', custom_class: 'med' },
 	#{ name: 'Altspace VR', rank: 'Ruby', img: 'AltspaceVR-new.png', site: 'http://altvr.com/', custom_class: 'lrg' },
 	# { name: 'Real Office Centers', rank: 'Ruby', img: 'ROC.jpg', site: 'http://www.realofficecenters.com/' },
 	# { name: 'UCI', rank: 'Ruby', img: 'UCICove.png', site: 'http://innovation.uci.edu/' },
@@ -121,14 +132,8 @@ Sponsor.create([
 	# { name: 'Hack A Day', rank: 'Emerald', img: 'HackADay-new.png', site: 'http://hackaday.com/' },
 	# { name: 'VR Cade', rank: 'Emerald', img: 'VRCade.png', site: 'http://vrcade.com/' },
 	# { name: 'VGDA', rank: 'Community', img: 'VGDA.png', site: 'http://www.vgda.net/' },
-	 { name: 'OCVR', rank: 'Community', img: 'OCVR.png', site: 'http://orangecountyvr.com/' },
 	# { name: 'Digital LA', rank: 'Community', img: 'DigitalLA.jpg', site: 'http://digitalla.net/' },
-	 { name: 'VRLA', rank: 'Community', img: 'VRLA.png', site: 'http://www.virtualrealityla.com/', custom_class: 'med' },
-	# { name: 'SVVR', rank: 'Community', img: 'SVVR.png', site: 'http://svvr.com/', custom_class: 'med' },
-	 { name: 'VRLB', rank: 'Community', img: 'VRLB.png', site: 'http://www.meetup.com/Long-Beach-Virtual-Reality-Meetup/', custom_class: 'med' },
-	 { name: 'SDVR', rank: 'Community', img: 'SDVR.png', site: 'http://www.meetup.com/San-Diego-Virtual-Reality/', custom_class: 'med' },
-	 { name: 'LA Reels', rank: 'Community', img: 'lareelslogo.png', site: 'http://www.lareels.com', custom_class: 'med' },
-	 { name: 'Realidyne', rank: 'Community', img: 'realidyne.png', site: 'http://www.realidyne.com', custom_class: 'med' },
+	 
 	# { name: 'OC Hackerz', rank: 'Community', img: 'OCHackerz.jpg', site: 'http://www.meetup.com/OCHackerz/', custom_class: 'sml' },
 	# { name: 'Survios', rank: 'Community', img: 'Survios.png', site: 'http://survios.com/', custom_class: 'nrml' },
 	# { name: 'KHS', rank: 'Community', img: 'KHS.png', site: 'http://www.khslaw.com/', custom_class: 'nrml' },
@@ -152,7 +157,6 @@ Sponsor.create([
 	# { name: 'Road to VR', rank: 'Media', img: 'RoadToVR.png', site: 'http://roadtovr.com/', custom_class: 'margin-sml' },
 	# { name: 'Zap Chain', rank: 'Media', img: 'ZapChain.png', site: 'http://www.zapchain.com/' },
 	# { name: 'VR Live', rank: 'Broadcasting', img: 'VRLive.png', site: 'http://www.vrlive.com/', custom_class: 'lrg' },
-	# { name: 'Vrideo', rank: 'Broadcasting', img: 'VRideo.png', site: 'http://www.vrideo.com', custom_class: 'lrg' }
 ])
 
 Worker.create([

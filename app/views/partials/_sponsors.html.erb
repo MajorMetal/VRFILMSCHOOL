@@ -36,8 +36,8 @@
 		</div> -->
 
 		<div class='sponsor-cont clearfix'>
-			<h5 class='section-title'>COMMUNITY</h5> 
-			<% @community.each do |sponsor| %>
+<!-- 			<h5 class='section-title'>COMMUNITY</h5> 
+ -->			<% @community.each do |sponsor| %>
 				<a href="<%= sponsor.site %>" target='_blank'>
 					<div class="sponsor-img-cont <%= sponsor.custom_class %>">
 						<img class='sponsor-img' src="<%= asset_path("#{sponsor.img}") %>" />
